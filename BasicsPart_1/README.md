@@ -216,3 +216,5 @@
         Expected Output:
         Hexadecimal number is : F
 [Click me to see the solution](Problem020.java)<br><br>
+
+_**This BasicsPart_1 of Java Practice is currently stopped, updating other core Java Concepts Practice Problems, thus visit other Directories!_
