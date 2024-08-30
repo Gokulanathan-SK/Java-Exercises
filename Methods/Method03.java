@@ -14,7 +14,7 @@ public class Method03 {
         Scanner get = new Scanner(System.in);
 
         System.out.print("Input a String: ");
-        String str = get.next();
+        String str = get.nextLine();
         System.out.println("The middle character in the string: "+findMiddleCharacter(str));
     }
     public static String findMiddleCharacter(String str){
