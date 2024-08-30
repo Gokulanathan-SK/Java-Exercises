@@ -20,8 +20,7 @@ public class Method01 {
         System.out.print("Input the third number: ");
         double num3 = get.nextDouble();
 
-        double smallest = findSmallest(num1, num2, num3);
-        System.out.printf("\nThe Smallest Value is %.1f",smallest);
+        System.out.printf("\nThe Smallest Value is %.1f",findSmallest(num1, num2, num3));
     }
     /* Method-1
         public static double findSmallest(double n1, double n2, double n3){
@@ -37,9 +36,7 @@ public class Method01 {
 
     // Method-2
     public static double findSmallest(double n1, double n2, double n3){
-        double smallest = Math.min(n1, n2);
-        smallest = Math.min(smallest, n3);
-        return smallest;
+        return Math.min(Math.min(n1, n2), n3);
     }
 
 }
